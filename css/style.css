@@ -1,0 +1,75 @@
+/* تنسيق عام للجسد */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* تنسيق حاوية التطبيق */
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق العنوان */
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* تنسيق قسم الإدخال */
+.input-section {
+    margin-bottom: 20px;
+}
+
+/* تنسيق الحقول */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* تنسيق زر "Generate" */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* تنسيق قسم الإخراج */
+.output-section {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f3fe;
+}
+
+#date, #temp, #content {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
